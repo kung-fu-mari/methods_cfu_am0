@@ -57,6 +57,20 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+# The upcase method is called on the shout variable, which stores the string object "can you hear me??!!!". 
+# The upcase method takes no arguments; it simply returns the string object with all letters capitalized.
+# In this example, the return value is "CAN YOU HEAR ME??!!!"
+# The puts command prints the return value of the upcase method ("CAN YOU HEAR ME??!!!") to the console.
+shout = "can you hear me??!!!"
+puts shout.upcase
+
+# The downcase method is called on the shout variable, which stores the string object "BE VERY QUIET!". 
+# The downcase method takes no arguments; it simply returns the string object with all letters uncapitalized.
+# In this example, the return value is "be very quiet!"
+# The puts command prints the return value of the downcase method ("be very quiet!") to the console.
+whisper = "BE VERY QUIET!"
+puts whisper.downcase
+
 
 
 # SECTION 3: Calling methods on variables assigned to integers.
