@@ -9,18 +9,36 @@
 "Hello World".downcase
 
 
+# method
+# define
+# execute or call
+# return
+# parameter
+# argument
+
+# The include? method is called on the string object "Hello World"
+# The string "Hello" is passed as an argument; include? takes one parameter and checks if it is in the built-in method's object
+# The return value is true
 "Hello World".include?("Hello")
 
-
+# The end_with? method is called on the string object "Hello World"
+# The string "Hello" is passed as an argument; end_with? takes one parameter and checks if the last character of the built-in method's object equals the parameter
+# The return value is false
 "Hello World".end_with?("Hello")
 
-
+# The end_with? method is called on the string object "Hello World"
+# The string "rld" is passed as an argument; end_with? takes one parameter and checks if the last character of the built-in method's object equals the parameter
+# The return value is true
 "Hello World".end_with?("rld")
 
-
+# The even? method is called on the integer object 12
+# No arguments are passed; even? checks if the object is an even number
+# The return value is true
 12.even?
 
-
+# The next method is called on the integer object 18
+# No arguments are passed; next returns the following number in the object's numerical sequence
+# The return value is 19
 18.next
 
 
