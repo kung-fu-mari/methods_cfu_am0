@@ -79,10 +79,35 @@ puts whisper.downcase
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+# The remainder method is called on the the_answer variable, which stores the integer object 42. 
+# The integer 10 is passed as an argument; remainder takes one parameter and divides the variable by 
+# it, returning the remainder of the division
+# The return value is 2
+the_answer = 42
+the_answer.remainder(10)
 
+# The zero? method is called on the result variable, which stores the integer object 100. 
+# No arguments are passed; zero? checks if the number is equal to 0
+# The return value is false
+result = 100
+result.zero?
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+# The last method is called on the football_commands variable, which stores the array object ["hut", "hut", "hike"]. 
+# The last method returns the last object in the array stored in the variable.
+# In this example, the return value is "hike", because "hike" is the last (furthest to the right) object in the array.
+# The puts command prints the return value of the last method ("hike") to the console.
+football_commands = ["hut", "hut", "hike"]
+puts football_commands.last
+
+# The at method is called on the letters variable, which stores the array object ["a", "b", "c"]. 
+# 1 is passed as an argument; The at method returns the object in the array stored at the index passed.
+# In this example, the return value is "b", because "b" is stored at index 1 in the array.
+# The puts command prints the return value of the at method ("b") to the console.
+letters = ["a", "b", "c"]
+puts letters.at(1)
